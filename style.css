@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "SignikaNegative";
+    src: url("SignikaNegative.ttf");
+}
+
+td {
+    width: 400px;
+    padding: 2px 10px;
+}
+
+table {
+    border: 5px solid #800031;
+    background-color: #59023B;
+    margin: 25px;
+    padding: 10px 2px;
+}
+
+textarea {
+    resize: none;
+    width: 350px;
+    height: 150px;
+}
+
+.normalny {
+    border: 1px solid #000000;
+}
+
+.alertowy {
+    border: 1px solid #ff0000;
+}
+
+p {
+    font-size: 20pt;
+    margin: 2px;
+}
+
+body {
+    background-color: #260F26;
+    font-family: 'SignikaNegative';
+    color:  #F26241;
+    margin: 0;
+}
+
+header {
+    background-color: #59023B;
+    margin: 0;
+}
+
+h1 {
+    font-size: 30pt;
+    margin: 0;
+    padding: 5px;
+}
+
+input, textarea, select {
+    background-color: #260F26;
+    color: #F24C3D;
+    font-family: 'SignikaNegative';
+    font-size: 15pt;
+}
+
+input[type="text"], select {
+    float: right;
+}
+
+#formularz {
+    display: block;
+    width: 450px;
+}
+
+#ogloszenie {
+    display: none;
+    width: 500px;
+}
+
+#tytul2 {
+    font-size: 30pt;
+    margin: 0;
+}
+
+#opis2 {
+    font-size: 15pt;
+}
+
+#negocjacja2 {
+    font-size: 11pt;
+}
